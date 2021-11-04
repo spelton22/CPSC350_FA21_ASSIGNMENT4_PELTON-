@@ -8,5 +8,5 @@ fun with stacks
 
 (1) https://ioecapsule.com/linked-list-template-implementation-of-doubly-linked-list-using-c/
 
-5. make realclean --> make all --> ./assignment3.exe
-  user input is prompted on the concole but no command line parameters
+5. make realclean --> make all --> ./assignment4.exe
+  user input is prompted on the concole and there is a command line parameters, enter RPN or DNA
