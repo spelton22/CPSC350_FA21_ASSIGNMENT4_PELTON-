@@ -4,6 +4,7 @@ fun with stacks
 1. Sophie Pelton -- 2370862 -- spelton@chapman.edu -- CPSC350-01 -- Assignment 4
 2. DNAComplement.h -- DNAComplement.cpp -- FileProcessor.h -- FileProcessor.cpp -- GenStack.cpp -- RPNCalc.h -- RPNCalc.cpp -- DoublyLinkedList.cpp -- main.cpp -- Makefile -- REAME.md
 3. no known compile errors. 
+
 4.references used: 
 
 (1) https://ioecapsule.com/linked-list-template-implementation-of-doubly-linked-list-using-c/
