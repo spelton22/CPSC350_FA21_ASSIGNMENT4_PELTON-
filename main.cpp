@@ -25,31 +25,27 @@ int main(int argc, const char *argv[]){
 
   //try catch to catch any run time errors
   try{
-    while(true){
-      if(userChoice.compare("RPN") == 0){ //compares user input for RPN
+    if(userChoice.compare("RPN") == 0){ //compares user input for RPN
 
-        cout<< "enter the calculation you want to carry out in post-fix notation." << endl;
-        cout << "put a space between each operator and operatands" << endl;
-        std::getline(std::cin, calculation);
-        //process the string and carry out calculation
-        output = rc->processString(calculation);
-        //prints out the result of the calculation
-        cout << "Result: " << output << endl;
-        break; //exits the loop
-      }else if(userChoice.compare("DNA") == 0){
-        //prompt for file name to read DNA input
-        cout << "enter the input file name" << endl;
-        cin >> inputFile;
-        //calls process string on the inputted file
-        cout << "the complement and reverse complement are being written to dnaoutput.txt" << endl;
-        fp->processFile(inputFile);
-        //writes output to a file
-        cout << "check dnaoutput.txt for the output" << endl;
-        break; //exits the loop
-      }else{
-        cout << "incorrect input. Try again" << endl; //incorrect input and allows them to try agian
-        cin >> userChoice;
-      }
+      cout<< "enter the calculation you want to carry out in post-fix notation." << endl;
+      cout << "put a space between each operator and operatands" << endl;
+      std::getline(std::cin, calculation);
+      //process the string and carry out calculation
+      output = rc->processString(calculation);
+      //prints out the result of the calculation
+      cout << "Result: " << output << endl;
+    }else if(userChoice.compare("DNA") == 0){
+      //prompt for file name to read DNA input
+      cout << "enter the input file name" << endl;
+      cin >> inputFile;
+      //calls process string on the inputted file
+      cout << "the complement and reverse complement are being written to dnaoutput.txt" << endl;
+      fp->processFile(inputFile);
+      //writes output to a file
+      cout << "check dnaoutput.txt for the output" << endl;
+    }else{
+      cout << "incorrect input. bye bye" << endl; //incorrect input and allows them to try agian
+      exit(1);
     }
   }
   catch(runtime_error &excpt){ //catches any run time errors
