@@ -2,8 +2,8 @@
 fun with stacks
 
 1. Sophie Pelton -- 2370862 -- spelton@chapman.edu -- CPSC350-01 -- Assignment 4
-2. DNAComplement.h -- DNAComplement.cpp -- FileProcessor.h -- FileProcessor.cpp -- GenStack.cpp -- RPNCalc.h -- RPNCalc.cpp -- DoublyLinkedList.cpp -- main.cpp -- Makefile -- REAME.md
-3. no known compile errors. 
+2. DNAComplement.h -- DNAComplement.cpp -- FileProcessor.h -- FileProcessor.cpp -- GenStack.cpp -- RPNCalc.h -- RPNCalc.cpp -- main.cpp -- Makefile -- REAME.md
+3. no known compile errors. For DNAComplement.cpp, if the line from the file is in lower case, I cast it to upper case when I am checking the character and then when I write it to the file it is the upper case verion for A, T, C, and G. 
 
 4.references used: 
 
@@ -14,5 +14,5 @@ fun with stacks
 (5) https://www.geeksforgeeks.org/converting-strings-numbers-cc/
 (6) https://java2blog.com/check-if-string-is-number-cpp/#Using_stdisdigit_method_to_check_if_a_string_is_number
 
-5. make realclean --> make all --> ./assignment4.exe
-  user input is prompted on the concole and there is a command line parameters, enter RPN or DNA
+5. make realclean --> make all --> ./assignment4.exe ___
+  there is a command line parameters, enter RPN or DNA. User input is prompted on the concole. 
