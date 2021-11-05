@@ -11,6 +11,7 @@ fun with stacks
 (3) https://stackoverflow.com/questions/44214288/c-friend-class-for-linked-list-node
 (4) https://stackoverflow.com/questions/5029840/convert-char-to-int-in-c-and-c
 (5) https://www.geeksforgeeks.org/converting-strings-numbers-cc/
+(6) https://java2blog.com/check-if-string-is-number-cpp/#Using_stdisdigit_method_to_check_if_a_string_is_number
 
 5. make realclean --> make all --> ./assignment4.exe
   user input is prompted on the concole and there is a command line parameters, enter RPN or DNA
